@@ -1,0 +1,6 @@
+sqlalchemy==2.0.4
+sqlalchemy_utils==0.40.0
+aiogram==2.25.1
+black==23.1.0
+flake8==6.0.0
+isort==5.12.0
