@@ -18,6 +18,7 @@ class Expense(Base):
     amount = Column(Float)
     created_at = Column(DateTime, default=datetime.now())
     category = Column(ForeignKey("category.name"))
+    category_id = Column(ForeignKey("category.id"))
 
 
 class Category(Base):
